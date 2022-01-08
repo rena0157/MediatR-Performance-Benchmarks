@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRBenchmarks", "src\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRMemoryTests", "src\MediatRMemoryTests\MediatRMemoryTests.csproj", "{410CF81F-6A09-4350-BD10-2C00574B07F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaprBenchmarks", "src\MaprBenchmarks\MaprBenchmarks.csproj", "{76089B41-E1B3-4D2D-BE72-E1883B3D7B3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76089B41-E1B3-4D2D-BE72-E1883B3D7B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76089B41-E1B3-4D2D-BE72-E1883B3D7B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76089B41-E1B3-4D2D-BE72-E1883B3D7B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76089B41-E1B3-4D2D-BE72-E1883B3D7B3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7A603F5B-01F5-414B-84A9-5591E3212564} = {B135689C-DC34-4DBF-B21E-4F996639D702}
 		{410CF81F-6A09-4350-BD10-2C00574B07F4} = {B135689C-DC34-4DBF-B21E-4F996639D702}
+		{76089B41-E1B3-4D2D-BE72-E1883B3D7B3F} = {B135689C-DC34-4DBF-B21E-4F996639D702}
 	EndGlobalSection
 EndGlobal
