@@ -96,7 +96,7 @@ AMD Ryzen 9 3900XT, 1 CPU, 24 logical and 12 physical cores
 .NET SDK=6.0.100
   [Host]     : .NET 6.0.0 (6.0.21.52210), X64 RyuJIT
   DefaultJob : .NET 6.0.0 (6.0.21.52210), X64 RyuJIT
-
+```
 
 |                            Method |      Mean |     Error |    StdDev |  Gen 0 | Allocated |
 |---------------------------------- |----------:|----------:|----------:|-------:|----------:|
@@ -104,7 +104,6 @@ AMD Ryzen 9 3900XT, 1 CPU, 24 logical and 12 physical cores
 |           CallingHandler_Directly |  16.19 ns |  0.180 ns |  0.168 ns | 0.0038 |      32 B |
 | CallingHandler_Directly_Transient |  15.91 ns |  0.247 ns |  0.231 ns | 0.0038 |      32 B |
 
-```
 
 The results show that calling the handler with MediatR seems to incur a relatively 
 high overhead. Looking at the execution time MediatR is `50x` slower than calling the handler directly.
@@ -229,6 +228,7 @@ AMD Ryzen 9 3900XT, 1 CPU, 24 logical and 12 physical cores
   [Host]     : .NET 6.0.0 (6.0.21.52210), X64 RyuJIT
   DefaultJob : .NET 6.0.0 (6.0.21.52210), X64 RyuJIT
 
+```
 
 |               Method |      Mean |     Error |    StdDev |  Gen 0 | Allocated |
 |--------------------- |----------:|----------:|----------:|-------:|----------:|
@@ -236,7 +236,6 @@ AMD Ryzen 9 3900XT, 1 CPU, 24 logical and 12 physical cores
 |           CallingMap |  1.430 ns | 0.0429 ns | 0.0401 ns |      - |         - |
 | Calling_SingletonMap | 48.217 ns | 0.2427 ns | 0.2270 ns |      - |         - |
 
-```
 
 Again here, like with MediatR, we are seeing a large performance difference between calling a map directly and calling 
 it through the mapper. The only difference is that we have the option to declare the map as a singleton. This completely removes 
