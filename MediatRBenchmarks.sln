@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B135689C-DC34-4DBF-B21E-4F996639D702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRBenchmarks", "src\MediatRBenchmarks\MediatRBenchmarks.csproj", "{7A603F5B-01F5-414B-84A9-5591E3212564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRMemoryTests", "src\MediatRMemoryTests\MediatRMemoryTests.csproj", "{410CF81F-6A09-4350-BD10-2C00574B07F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A603F5B-01F5-414B-84A9-5591E3212564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A603F5B-01F5-414B-84A9-5591E3212564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A603F5B-01F5-414B-84A9-5591E3212564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A603F5B-01F5-414B-84A9-5591E3212564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410CF81F-6A09-4350-BD10-2C00574B07F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A603F5B-01F5-414B-84A9-5591E3212564} = {B135689C-DC34-4DBF-B21E-4F996639D702}
+		{410CF81F-6A09-4350-BD10-2C00574B07F4} = {B135689C-DC34-4DBF-B21E-4F996639D702}
+	EndGlobalSection
+EndGlobal
